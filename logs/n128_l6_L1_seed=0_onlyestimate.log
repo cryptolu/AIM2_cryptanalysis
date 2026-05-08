@@ -1,0 +1,60 @@
+[i] Seed: 0
+[i] Secret key: GF128Element(7a024204f7c1bd874da5e709d4713d60)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 6 branches
+- L = 1 IVs
+- M = 109 squarings (1 ... 2^(M-1) 2^M)
+- W = 769 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^137.91 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 7
+[i] Squared equations: 770
+[i] W = t-monomials in equations: 769
+
+Arranging equations...
+
+[i] Full equation matrix F: H=770 x W=769
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 769/769   fingerprint 7a1d6d56e191596f
+[I] Row-degree sum ξ: experimental = 2^112.70, estimated = 2^112.81
+[I] Total nonzero coefficients 169622 <= 2W^2 = 1182722 ? True
+[I] Time complexity 2^137.52 field ops = 2^130.52 encs  (1/n convention)
+[I] Memory complexity : 2^123.29 field elems = 2^127.29 bytes = 193370102698999165752602263552.00 GB
+[R1] n=128  ell= 6  L=  1  M=109  W= 769  ξ=2^112.70  Time=2^137.52 field ops  Mem=2^123.29 field elems
+[R2] n=128  ell= 6  L=  1  M=109  W= 769  ξ=2^112.70  Time=2^130.52 enc  Mem=2^127.29 bytes
+
+[W] not running full attack 193370102698999165752602263552.0 GB needed, 26.9 GB available
+[i] Real secret key for comparison: GF128Element(7a024204f7c1bd874da5e709d4713d60)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 6 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 8.68
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 334560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74793
+	Voluntary context switches: 147
+	Involuntary context switches: 208
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

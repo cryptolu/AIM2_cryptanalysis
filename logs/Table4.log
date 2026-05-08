@@ -1,0 +1,2415 @@
+Sat Feb 14 06:49:33 PM CET 2026
+CMD |-n 128  -l 2  -L 2  --seed=0  --only-estimate| filename |n128_l2_L2_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 2 branches
+- L = 2 IVs
+- M = 64 squarings (1 ... 2^(M-1) 2^M)
+- W = 257 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^91.39 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 4
+[i] Squared equations: 260
+[i] W = t-monomials in equations: 257
+
+Arranging equations...
+
+[i] Full equation matrix F: H=260 x W=257
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 257/257   fingerprint 520f1f3ff620a083
+[I] Row-degree sum ξ: experimental = 2^66.32, estimated = 2^66.98
+[I] Total nonzero coefficients 66179 <= 2W^2 = 132098 ? True
+[I] Time complexity 2^88.64 field ops = 2^81.64 encs  (1/n convention)
+[I] Memory complexity : 2^75.33 field elems = 2^79.33 bytes = 706436220846080.00 GB
+[R1] n=128  ell= 2  L=  2  M= 64  W= 257  ξ=2^ 66.32  Time=2^ 88.64 field ops  Mem=2^ 75.33 field elems
+[R2] n=128  ell= 2  L=  2  M= 64  W= 257  ξ=2^ 66.32  Time=2^ 81.64 enc  Mem=2^ 79.33 bytes
+
+[W] not running full attack 706436220846080.0 GB needed, 27.2 GB available
+[i] Real secret key for comparison: GF128Element(8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 2 -L 2 --seed=0 --only-estimate"
+	User time (seconds): 2.37
+	System time (seconds): 0.17
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.56
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 252656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53786
+	Voluntary context switches: 166
+	Involuntary context switches: 118
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:49:36 PM CET 2026
+CMD |-n 128  -l 2  -L 1  --seed=0  --only-estimate| filename |n128_l2_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 2 branches
+- L = 1 IVs
+- M = 85 squarings (1 ... 2^(M-1) 2^M)
+- W = 257 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^112.31 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 3
+[i] Squared equations: 258
+[i] W = t-monomials in equations: 257
+
+Arranging equations...
+
+[i] Full equation matrix F: H=258 x W=257
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 257/257   fingerprint 27542d144ad92c56
+[I] Row-degree sum ξ: experimental = 2^87.32, estimated = 2^87.58
+[I] Total nonzero coefficients 44206 <= 2W^2 = 132098 ? True
+[I] Time complexity 2^110.66 field ops = 2^103.66 encs  (1/n convention)
+[I] Memory complexity : 2^96.33 field elems = 2^100.33 bytes = 1481504133419798364160.00 GB
+[R1] n=128  ell= 2  L=  1  M= 85  W= 257  ξ=2^ 87.32  Time=2^110.66 field ops  Mem=2^ 96.33 field elems
+[R2] n=128  ell= 2  L=  1  M= 85  W= 257  ξ=2^ 87.32  Time=2^103.66 enc  Mem=2^100.33 bytes
+
+[W] not running full attack 1481504133419798364160.0 GB needed, 27.2 GB available
+[i] Real secret key for comparison: GF128Element(8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 2 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 1.95
+	System time (seconds): 0.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 248272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52489
+	Voluntary context switches: 149
+	Involuntary context switches: 71
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:49:39 PM CET 2026
+CMD |-n 128  -l 3  -L 1  --seed=0  --only-estimate| filename |n128_l3_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(82e2e662f728b4fa42485e3a0a5d2f34)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 3 branches
+- L = 1 IVs
+- M = 96 squarings (1 ... 2^(M-1) 2^M)
+- W = 385 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^123.39 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 4
+[i] Squared equations: 388
+[i] W = t-monomials in equations: 385
+
+Arranging equations...
+
+[i] Full equation matrix F: H=388 x W=385
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 385/385   fingerprint 7e5b341df88205a6
+[I] Row-degree sum ξ: experimental = 2^98.32, estimated = 2^98.99
+[I] Total nonzero coefficients 74787 <= 2W^2 = 296450 ? True
+[I] Time complexity 2^122.26 field ops = 2^115.26 encs  (1/n convention)
+[I] Memory complexity : 2^107.91 field elems = 2^111.91 bytes = 4545277739762033518182400.00 GB
+[R1] n=128  ell= 3  L=  1  M= 96  W= 385  ξ=2^ 98.32  Time=2^122.26 field ops  Mem=2^107.91 field elems
+[R2] n=128  ell= 3  L=  1  M= 96  W= 385  ξ=2^ 98.32  Time=2^115.26 enc  Mem=2^111.91 bytes
+
+[W] not running full attack 4545277739762033518182400.0 GB needed, 27.1 GB available
+[i] Real secret key for comparison: GF128Element(82e2e662f728b4fa42485e3a0a5d2f34)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 3 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 3.08
+	System time (seconds): 0.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 263512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56601
+	Voluntary context switches: 148
+	Involuntary context switches: 121
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:49:42 PM CET 2026
+CMD |-n 128  -l 4  -L 1  --seed=0| filename |n128_l4_L1_seed=0|
+[i] Seed: 0
+[i] Secret key: GF128Element(7c65c1e582e2e662f728b4fa42485e3a)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 4 branches
+- L = 1 IVs
+- M = 102 squarings (1 ... 2^(M-1) 2^M)
+- W = 513 t-monomials
+- Only estimate ? False
+
+[I] Time complexity rough estimate = 2^130.11 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 5
+[i] Squared equations: 515
+[i] W = t-monomials in equations: 513
+
+Arranging equations...
+
+[i] Full equation matrix F: H=515 x W=513
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 513/513   fingerprint 26a1f56650161157
+[I] Row-degree sum ξ: experimental = 2^105.00, estimated = 2^105.32
+[I] Total nonzero coefficients 105885 <= 2W^2 = 526338 ? True
+[I] Time complexity 2^129.32 field ops = 2^122.32 encs  (1/n convention)
+[I] Memory complexity : 2^115.00 field elems = 2^119.00 bytes = 620178945462304766624268288.00 GB
+[R1] n=128  ell= 4  L=  1  M=102  W= 513  ξ=2^105.00  Time=2^129.32 field ops  Mem=2^115.00 field elems
+[R2] n=128  ell= 4  L=  1  M=102  W= 513  ξ=2^105.00  Time=2^122.32 enc  Mem=2^119.00 bytes
+
+[W] not running full attack 620178945462304766624268288.0 GB needed, 26.8 GB available
+[i] Real secret key for comparison: GF128Element(7c65c1e582e2e662f728b4fa42485e3a)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 4 -L 1 --seed=0"
+	User time (seconds): 4.54
+	System time (seconds): 0.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 316244
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 69756
+	Voluntary context switches: 150
+	Involuntary context switches: 186
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:49:48 PM CET 2026
+CMD |-n 128  -l 4  -L 1  --seed=0  --only-estimate| filename |n128_l4_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(7c65c1e582e2e662f728b4fa42485e3a)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 4 branches
+- L = 1 IVs
+- M = 102 squarings (1 ... 2^(M-1) 2^M)
+- W = 513 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^130.11 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 5
+[i] Squared equations: 515
+[i] W = t-monomials in equations: 513
+
+Arranging equations...
+
+[i] Full equation matrix F: H=515 x W=513
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 513/513   fingerprint 109b095c092d5bc
+[I] Row-degree sum ξ: experimental = 2^105.00, estimated = 2^105.32
+[I] Total nonzero coefficients 105885 <= 2W^2 = 526338 ? True
+[I] Time complexity 2^129.32 field ops = 2^122.32 encs  (1/n convention)
+[I] Memory complexity : 2^115.00 field elems = 2^119.00 bytes = 620178945462304766624268288.00 GB
+[R1] n=128  ell= 4  L=  1  M=102  W= 513  ξ=2^105.00  Time=2^129.32 field ops  Mem=2^115.00 field elems
+[R2] n=128  ell= 4  L=  1  M=102  W= 513  ξ=2^105.00  Time=2^122.32 enc  Mem=2^119.00 bytes
+
+[W] not running full attack 620178945462304766624268288.0 GB needed, 26.9 GB available
+[i] Real secret key for comparison: GF128Element(7c65c1e582e2e662f728b4fa42485e3a)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 4 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 4.17
+	System time (seconds): 0.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 284440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 61959
+	Voluntary context switches: 148
+	Involuntary context switches: 360
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:49:53 PM CET 2026
+CMD |-n 128  -l 5  -L 1  --seed=0  --only-estimate| filename |n128_l5_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(f7c1bd874da5e709d4713d60c8a70639)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 5 branches
+- L = 1 IVs
+- M = 106 squarings (1 ... 2^(M-1) 2^M)
+- W = 641 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^134.64 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 6
+[i] Squared equations: 642
+[i] W = t-monomials in equations: 641
+
+Arranging equations...
+
+[i] Full equation matrix F: H=642 x W=641
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 641/641   fingerprint 7cd992fce6d3ebfb
+[I] Row-degree sum ξ: experimental = 2^109.46, estimated = 2^109.58
+[I] Total nonzero coefficients 137497 <= 2W^2 = 821762 ? True
+[I] Time complexity 2^134.06 field ops = 2^127.06 encs  (1/n convention)
+[I] Memory complexity : 2^119.78 field elems = 2^123.78 bytes = 17048271908205500621706493952.00 GB
+[R1] n=128  ell= 5  L=  1  M=106  W= 641  ξ=2^109.46  Time=2^134.06 field ops  Mem=2^119.78 field elems
+[R2] n=128  ell= 5  L=  1  M=106  W= 641  ξ=2^109.46  Time=2^127.06 enc  Mem=2^123.78 bytes
+
+[W] not running full attack 17048271908205500621706493952.0 GB needed, 27.0 GB available
+[i] Real secret key for comparison: GF128Element(f7c1bd874da5e709d4713d60c8a70639)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 5 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 6.12
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 308516
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 68988
+	Voluntary context switches: 152
+	Involuntary context switches: 298
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:50:00 PM CET 2026
+CMD |-n 128  -l 6  -L 1  --seed=0  --only-estimate| filename |n128_l6_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(7a024204f7c1bd874da5e709d4713d60)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 6 branches
+- L = 1 IVs
+- M = 109 squarings (1 ... 2^(M-1) 2^M)
+- W = 769 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^137.91 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 7
+[i] Squared equations: 770
+[i] W = t-monomials in equations: 769
+
+Arranging equations...
+
+[i] Full equation matrix F: H=770 x W=769
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 769/769   fingerprint 7a1d6d56e191596f
+[I] Row-degree sum ξ: experimental = 2^112.70, estimated = 2^112.81
+[I] Total nonzero coefficients 169622 <= 2W^2 = 1182722 ? True
+[I] Time complexity 2^137.52 field ops = 2^130.52 encs  (1/n convention)
+[I] Memory complexity : 2^123.29 field elems = 2^127.29 bytes = 193370102698999165752602263552.00 GB
+[R1] n=128  ell= 6  L=  1  M=109  W= 769  ξ=2^112.70  Time=2^137.52 field ops  Mem=2^123.29 field elems
+[R2] n=128  ell= 6  L=  1  M=109  W= 769  ξ=2^112.70  Time=2^130.52 enc  Mem=2^127.29 bytes
+
+[W] not running full attack 193370102698999165752602263552.0 GB needed, 26.9 GB available
+[i] Real secret key for comparison: GF128Element(7a024204f7c1bd874da5e709d4713d60)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 6 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 8.68
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 334560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74793
+	Voluntary context switches: 147
+	Involuntary context switches: 208
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:50:09 PM CET 2026
+CMD |-n 128  -l 7  -L 1  --seed=0  --only-estimate| filename |n128_l7_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 7 branches
+- L = 1 IVs
+- M = 112 squarings (1 ... 2^(M-1) 2^M)
+- W = 897 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^140.39 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 8
+[i] Squared equations: 904
+[i] W = t-monomials in equations: 897
+
+Arranging equations...
+
+[i] Full equation matrix F: H=904 x W=897
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 897/897   fingerprint 69d58278b39f784b
+[I] Row-degree sum ξ: experimental = 2^115.17, estimated = 2^115.99
+[I] Total nonzero coefficients 203283 <= 2W^2 = 1609218 ? True
+[I] Time complexity 2^140.18 field ops = 2^133.18 encs  (1/n convention)
+[I] Memory complexity : 2^125.98 field elems = 2^129.98 bytes = 1249236242143859369907578732544.00 GB
+[R1] n=128  ell= 7  L=  1  M=112  W= 897  ξ=2^115.17  Time=2^140.18 field ops  Mem=2^125.98 field elems
+[R2] n=128  ell= 7  L=  1  M=112  W= 897  ξ=2^115.17  Time=2^133.18 enc  Mem=2^129.98 bytes
+
+[W] not running full attack 1249236242143859369907578732544.0 GB needed, 26.9 GB available
+[i] Real secret key for comparison: GF128Element(8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 7 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 11.54
+	System time (seconds): 0.27
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 369928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 85336
+	Voluntary context switches: 148
+	Involuntary context switches: 740
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:50:21 PM CET 2026
+CMD |-n 128  -l 8  -L 1  --seed=0  --only-estimate| filename |n128_l8_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(4826867323a7711a8133287637ebdcd9)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 8 branches
+- L = 1 IVs
+- M = 113 squarings (1 ... 2^(M-1) 2^M)
+- W = 1025 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^142.34 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 9
+[i] Squared equations: 1026
+[i] W = t-monomials in equations: 1025
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1026 x W=1025
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1025/1025   fingerprint 2a1cacd8b6ac0201
+[I] Row-degree sum ξ: experimental = 2^117.09, estimated = 2^117.17
+[I] Total nonzero coefficients 234386 <= 2W^2 = 2101250 ? True
+[I] Time complexity 2^142.26 field ops = 2^135.26 encs  (1/n convention)
+[I] Memory complexity : 2^128.09 field elems = 2^132.09 bytes = 5392776296136937822529309900800.00 GB
+[R1] n=128  ell= 8  L=  1  M=113  W=1025  ξ=2^117.09  Time=2^142.26 field ops  Mem=2^128.09 field elems
+[R2] n=128  ell= 8  L=  1  M=113  W=1025  ξ=2^117.09  Time=2^135.26 enc  Mem=2^132.09 bytes
+
+[W] not running full attack 5392776296136937822529309900800.0 GB needed, 27.1 GB available
+[i] Real secret key for comparison: GF128Element(4826867323a7711a8133287637ebdcd9)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 8 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 15.12
+	System time (seconds): 0.25
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 406880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 95278
+	Voluntary context switches: 156
+	Involuntary context switches: 265
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:50:37 PM CET 2026
+CMD |-n 128  -l 9  -L 1  --seed=0  --only-estimate| filename |n128_l9_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF128Element(f7c1bd874da5e709d4713d60c8a70639)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 9 branches
+- L = 1 IVs
+- M = 115 squarings (1 ... 2^(M-1) 2^M)
+- W = 1153 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^143.91 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 10
+[i] Squared equations: 1160
+[i] W = t-monomials in equations: 1153
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1160 x W=1153
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1153/1153   fingerprint 6aad89d5a4eb11cf
+[I] Row-degree sum ξ: experimental = 2^118.70, estimated = 2^119.31
+[I] Total nonzero coefficients 268304 <= 2W^2 = 2658818 ? True
+[I] Time complexity 2^144.03 field ops = 2^137.03 encs  (1/n convention)
+[I] Memory complexity : 2^129.87 field elems = 2^133.87 bytes = 18555483248848564940462972993536.00 GB
+[R1] n=128  ell= 9  L=  1  M=115  W=1153  ξ=2^118.70  Time=2^144.03 field ops  Mem=2^129.87 field elems
+[R2] n=128  ell= 9  L=  1  M=115  W=1153  ξ=2^118.70  Time=2^137.03 enc  Mem=2^133.87 bytes
+
+[W] not running full attack 18555483248848564940462972993536.0 GB needed, 27.0 GB available
+[i] Real secret key for comparison: GF128Element(f7c1bd874da5e709d4713d60c8a70639)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 9 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 20.24
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 442968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 105291
+	Voluntary context switches: 147
+	Involuntary context switches: 500
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:50:58 PM CET 2026
+CMD |-h| filename |h|
+usage: attack-aim2.py [-h] [--pairs-file PAIRS_FILE] [-n N] [-l L] [-L L]
+                      [--only-estimate] [--seed SEED] [--no-progress-bars]
+
+options:
+  -h, --help            show this help message and exit
+  --pairs-file PAIRS_FILE
+                        Path to file with (iv,ct) pairs
+  -n N                  field dimension n (bits), default: deduced from file,
+                        or 128 if random
+  -l L, -ell L          number of branches, default: 2 if n in {128,192}, 3 if
+                        n == 256
+  -L L                  number of IVs, default: all if from file, or 1 if
+                        random
+  --only-estimate       Do not run the full attack, only show complexity
+                        estimates
+  --seed SEED           Randomness seed
+  --no-progress-bars    Disable progress bar (for cleaner logs)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -h"
+	User time (seconds): 0.99
+	System time (seconds): 0.15
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 216156
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 45739
+	Voluntary context switches: 146
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:51:00 PM CET 2026
+CMD |-n 192  -l 2  -L 2  --seed=0  --only-estimate| filename |n192_l2_L2_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 2 branches
+- L = 2 IVs
+- M = 96 squarings (1 ... 2^(M-1) 2^M)
+- W = 385 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^125.15 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 4
+[i] Squared equations: 388
+[i] W = t-monomials in equations: 385
+
+Arranging equations...
+
+[i] Full equation matrix F: H=388 x W=385
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 385/385   fingerprint 2332bdce4437779c
+[I] Row-degree sum ξ: experimental = 2^98.32, estimated = 2^98.99
+[I] Total nonzero coefficients 148419 <= 2W^2 = 296450 ? True
+[I] Time complexity 2^122.32 field ops = 2^114.74 encs  (1/n convention)
+[I] Memory complexity : 2^107.91 field elems = 2^112.50 bytes = 6817916609643050277273600.00 GB
+[R1] n=192  ell= 2  L=  2  M= 96  W= 385  ξ=2^ 98.32  Time=2^122.32 field ops  Mem=2^107.91 field elems
+[R2] n=192  ell= 2  L=  2  M= 96  W= 385  ξ=2^ 98.32  Time=2^114.74 enc  Mem=2^112.50 bytes
+
+[W] not running full attack 6817916609643050277273600.0 GB needed, 27.0 GB available
+[i] Real secret key for comparison: GF192Element(4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 2 -L 2 --seed=0 --only-estimate"
+	User time (seconds): 4.48
+	System time (seconds): 0.16
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 294356
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 64686
+	Voluntary context switches: 149
+	Involuntary context switches: 93
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:51:05 PM CET 2026
+CMD |-n 192  -l 2  -L 1  --seed=0  --only-estimate| filename |n192_l2_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 2 branches
+- L = 1 IVs
+- M = 128 squarings (1 ... 2^(M-1) 2^M)
+- W = 385 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^156.73 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 3
+[i] Squared equations: 387
+[i] W = t-monomials in equations: 385
+
+Arranging equations...
+
+[i] Full equation matrix F: H=387 x W=385
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 385/385   fingerprint 7af58a229535128c
+[I] Row-degree sum ξ: experimental = 2^130.00, estimated = 2^130.58
+[I] Total nonzero coefficients 99331 <= 2W^2 = 296450 ? True
+[I] Time complexity 2^155.04 field ops = 2^147.46 encs  (1/n convention)
+[I] Memory complexity : 2^139.59 field elems = 2^144.17 bytes = 23426183092217679339659075235348480.00 GB
+[R1] n=192  ell= 2  L=  1  M=128  W= 385  ξ=2^130.00  Time=2^155.04 field ops  Mem=2^139.59 field elems
+[R2] n=192  ell= 2  L=  1  M=128  W= 385  ξ=2^130.00  Time=2^147.46 enc  Mem=2^144.17 bytes
+
+[W] not running full attack 23426183092217679339659075235348480.0 GB needed, 27.1 GB available
+[i] Real secret key for comparison: GF192Element(4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 2 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 3.28
+	System time (seconds): 0.17
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 281152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 61294
+	Voluntary context switches: 157
+	Involuntary context switches: 68
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:51:09 PM CET 2026
+CMD |-n 192  -l 3  -L 1  --seed=0  --only-estimate| filename |n192_l3_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(bad640fb19488dec4f65d4d9259f4329e6f4590b9a164106)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 3 branches
+- L = 1 IVs
+- M = 144 squarings (1 ... 2^(M-1) 2^M)
+- W = 577 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^173.15 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 4
+[i] Squared equations: 580
+[i] W = t-monomials in equations: 577
+
+Arranging equations...
+
+[i] Full equation matrix F: H=580 x W=577
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 577/577   fingerprint 2035845c2e709f2a
+[I] Row-degree sum ξ: experimental = 2^146.32, estimated = 2^146.99
+[I] Total nonzero coefficients 167475 <= 2W^2 = 665858 ? True
+[I] Time complexity 2^171.97 field ops = 2^164.38 encs  (1/n convention)
+[I] Memory complexity : 2^156.49 field elems = 2^161.08 bytes = 2876117075879611719995612526681595576320.00 GB
+[R1] n=192  ell= 3  L=  1  M=144  W= 577  ξ=2^146.32  Time=2^171.97 field ops  Mem=2^156.49 field elems
+[R2] n=192  ell= 3  L=  1  M=144  W= 577  ξ=2^146.32  Time=2^164.38 enc  Mem=2^161.08 bytes
+
+[W] not running full attack 2876117075879611719995612526681595576320.0 GB needed, 27.1 GB available
+[i] Real secret key for comparison: GF192Element(bad640fb19488dec4f65d4d9259f4329e6f4590b9a164106)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 3 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 5.77
+	System time (seconds): 0.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 331060
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 73890
+	Voluntary context switches: 149
+	Involuntary context switches: 96
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:51:16 PM CET 2026
+CMD |-n 192  -l 4  -L 1  --seed=0  --only-estimate| filename |n192_l4_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(cca5a5a19e4d6e3c1846d424c17c627923c6612f48268673)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 4 branches
+- L = 1 IVs
+- M = 153 squarings (1 ... 2^(M-1) 2^M)
+- W = 769 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^183.07 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 5
+[i] Squared equations: 770
+[i] W = t-monomials in equations: 769
+
+Arranging equations...
+
+[i] Full equation matrix F: H=770 x W=769
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 769/769   fingerprint 37f8df87ac792bfe
+[I] Row-degree sum ξ: experimental = 2^156.17, estimated = 2^156.32
+[I] Total nonzero coefficients 237162 <= 2W^2 = 1182722 ? True
+[I] Time complexity 2^182.19 field ops = 2^174.60 encs  (1/n convention)
+[I] Memory complexity : 2^166.76 field elems = 2^171.34 bytes = 3532641392189722658445023487052901687230464.00 GB
+[R1] n=192  ell= 4  L=  1  M=153  W= 769  ξ=2^156.17  Time=2^182.19 field ops  Mem=2^166.76 field elems
+[R2] n=192  ell= 4  L=  1  M=153  W= 769  ξ=2^156.17  Time=2^174.60 enc  Mem=2^171.34 bytes
+
+[W] not running full attack 3532641392189722658445023487052901687230464.0 GB needed, 27.0 GB available
+[i] Real secret key for comparison: GF192Element(cca5a5a19e4d6e3c1846d424c17c627923c6612f48268673)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 4 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 9.20
+	System time (seconds): 0.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 388020
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 88227
+	Voluntary context switches: 151
+	Involuntary context switches: 147
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:51:26 PM CET 2026
+CMD |-n 192  -l 5  -L 1  --seed=0  --only-estimate| filename |n192_l5_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(e6f4590b9a164106cf6a659eb4862b21fb97d43588561712)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 5 branches
+- L = 1 IVs
+- M = 160 squarings (1 ... 2^(M-1) 2^M)
+- W = 961 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^189.73 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 6
+[i] Squared equations: 966
+[i] W = t-monomials in equations: 961
+
+Arranging equations...
+
+[i] Full equation matrix F: H=966 x W=961
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 961/961   fingerprint 5d4bc4c8ee68d523
+[I] Row-degree sum ξ: experimental = 2^162.81, estimated = 2^163.58
+[I] Total nonzero coefficients 309923 <= 2W^2 = 1847042 ? True
+[I] Time complexity 2^189.10 field ops = 2^181.51 encs  (1/n convention)
+[I] Memory complexity : 2^173.72 field elems = 2^178.30 bytes = 439503260597213384393879228965152913625186304.00 GB
+[R1] n=192  ell= 5  L=  1  M=160  W= 961  ξ=2^162.81  Time=2^189.10 field ops  Mem=2^173.72 field elems
+[R2] n=192  ell= 5  L=  1  M=160  W= 961  ξ=2^162.81  Time=2^181.51 enc  Mem=2^178.30 bytes
+
+[W] not running full attack 439503260597213384393879228965152913625186304.0 GB needed, 27.0 GB available
+[i] Real secret key for comparison: GF192Element(e6f4590b9a164106cf6a659eb4862b21fb97d43588561712)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 5 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 14.08
+	System time (seconds): 0.28
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 456908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 107682
+	Voluntary context switches: 154
+	Involuntary context switches: 348
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:51:40 PM CET 2026
+CMD |-n 192  -l 6  -L 1  --seed=0  --only-estimate| filename |n192_l6_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(ea7e9d498c778ea6eb2083e6ce164dba0ff18e0242af9fc3)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 6 branches
+- L = 1 IVs
+- M = 164 squarings (1 ... 2^(M-1) 2^M)
+- W = 1153 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^194.53 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 7
+[i] Squared equations: 1155
+[i] W = t-monomials in equations: 1153
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1155 x W=1153
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1153/1153   fingerprint 1704b9a2a9af427c
+[I] Row-degree sum ξ: experimental = 2^167.58, estimated = 2^167.80
+[I] Total nonzero coefficients 381151 <= 2W^2 = 2658818 ? True
+[I] Time complexity 2^194.09 field ops = 2^186.51 encs  (1/n convention)
+[I] Memory complexity : 2^178.76 field elems = 2^183.34 bytes = 14463427057822017271232259282204502959222423552.00 GB
+[R1] n=192  ell= 6  L=  1  M=164  W=1153  ξ=2^167.58  Time=2^194.09 field ops  Mem=2^178.76 field elems
+[R2] n=192  ell= 6  L=  1  M=164  W=1153  ξ=2^167.58  Time=2^186.51 enc  Mem=2^183.34 bytes
+
+[W] not running full attack 14463427057822017271232259282204502959222423552.0 GB needed, 26.6 GB available
+[i] Real secret key for comparison: GF192Element(ea7e9d498c778ea6eb2083e6ce164dba0ff18e0242af9fc3)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 6 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 22.03
+	System time (seconds): 0.33
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:22.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 542212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 130160
+	Voluntary context switches: 155
+	Involuntary context switches: 301
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:52:03 PM CET 2026
+CMD |-n 192  -l 7  -L 1  --seed=0  --only-estimate| filename |n192_l7_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(a0116be5ab0c1681c8f8e3d0d3290a4cb5d32b1666194cb1)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 7 branches
+- L = 1 IVs
+- M = 168 squarings (1 ... 2^(M-1) 2^M)
+- W = 1345 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^198.15 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 8
+[i] Squared equations: 1352
+[i] W = t-monomials in equations: 1345
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1352 x W=1345
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1345/1345   fingerprint 236ebfe98330a23a
+[I] Row-degree sum ξ: experimental = 2^171.17, estimated = 2^171.99
+[I] Total nonzero coefficients 455451 <= 2W^2 = 3618050 ? True
+[I] Time complexity 2^197.85 field ops = 2^190.27 encs  (1/n convention)
+[I] Memory complexity : 2^182.56 field elems = 2^187.15 bytes = 202462890471159894846217402267806312022419701760.00 GB
+[R1] n=192  ell= 7  L=  1  M=168  W=1345  ξ=2^171.17  Time=2^197.85 field ops  Mem=2^182.56 field elems
+[R2] n=192  ell= 7  L=  1  M=168  W=1345  ξ=2^171.17  Time=2^190.27 enc  Mem=2^187.15 bytes
+
+[W] not running full attack 202462890471159894846217402267806312022419701760.0 GB needed, 26.7 GB available
+[i] Real secret key for comparison: GF192Element(a0116be5ab0c1681c8f8e3d0d3290a4cb5d32b1666194cb1)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 7 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 30.09
+	System time (seconds): 0.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 646164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 157562
+	Voluntary context switches: 148
+	Involuntary context switches: 477
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:52:34 PM CET 2026
+CMD |-n 192  -l 8  -L 1  --seed=0  --only-estimate| filename |n192_l8_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(a0116be5ab0c1681c8f8e3d0d3290a4cb5d32b1666194cb1)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 8 branches
+- L = 1 IVs
+- M = 170 squarings (1 ... 2^(M-1) 2^M)
+- W = 1537 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^200.98 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 9
+[i] Squared equations: 1539
+[i] W = t-monomials in equations: 1537
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1539 x W=1537
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1537/1537   fingerprint 7d051d0fbff76dd9
+[I] Row-degree sum ξ: experimental = 2^174.00, estimated = 2^174.17
+[I] Total nonzero coefficients 526681 <= 2W^2 = 4724738 ? True
+[I] Time complexity 2^200.84 field ops = 2^193.26 encs  (1/n convention)
+[I] Memory complexity : 2^185.59 field elems = 2^190.17 bytes = 1645259777766795252889939151282905518465211170816.00 GB
+[R1] n=192  ell= 8  L=  1  M=170  W=1537  ξ=2^174.00  Time=2^200.84 field ops  Mem=2^185.59 field elems
+[R2] n=192  ell= 8  L=  1  M=170  W=1537  ξ=2^174.00  Time=2^193.26 enc  Mem=2^190.17 bytes
+
+[W] not running full attack 1645259777766795252889939151282905518465211170816.0 GB needed, 26.7 GB available
+[i] Real secret key for comparison: GF192Element(a0116be5ab0c1681c8f8e3d0d3290a4cb5d32b1666194cb1)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 8 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 38.48
+	System time (seconds): 0.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 746224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 179677
+	Voluntary context switches: 154
+	Involuntary context switches: 1057
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:53:14 PM CET 2026
+CMD |-n 192  -l 9  -L 1  --seed=0  --only-estimate| filename |n192_l9_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF192Element(9ca5499d004ae545a0116be5ab0c1681c8f8e3d0d3290a4c)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 9 branches
+- L = 1 IVs
+- M = 172 squarings (1 ... 2^(M-1) 2^M)
+- W = 1729 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^203.27 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 10
+[i] Squared equations: 1730
+[i] W = t-monomials in equations: 1729
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1730 x W=1729
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1729/1729   fingerprint 44091881cdd514d0
+[I] Row-degree sum ξ: experimental = 2^176.25, estimated = 2^176.32
+[I] Total nonzero coefficients 599447 <= 2W^2 = 5978882 ? True
+[I] Time complexity 2^203.23 field ops = 2^195.64 encs  (1/n convention)
+[I] Memory complexity : 2^188.00 field elems = 2^192.59 bytes = 8791221366203154009871078571697255885995551752192.00 GB
+[R1] n=192  ell= 9  L=  1  M=172  W=1729  ξ=2^176.25  Time=2^203.23 field ops  Mem=2^188.00 field elems
+[R2] n=192  ell= 9  L=  1  M=172  W=1729  ξ=2^176.25  Time=2^195.64 enc  Mem=2^192.59 bytes
+
+[W] not running full attack 8791221366203154009871078571697255885995551752192.0 GB needed, 26.5 GB available
+[i] Real secret key for comparison: GF192Element(9ca5499d004ae545a0116be5ab0c1681c8f8e3d0d3290a4c)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 9 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 49.88
+	System time (seconds): 0.44
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:50.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 838276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 213211
+	Voluntary context switches: 153
+	Involuntary context switches: 790
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:54:05 PM CET 2026
+CMD |-h| filename |h|
+usage: attack-aim2.py [-h] [--pairs-file PAIRS_FILE] [-n N] [-l L] [-L L]
+                      [--only-estimate] [--seed SEED] [--no-progress-bars]
+
+options:
+  -h, --help            show this help message and exit
+  --pairs-file PAIRS_FILE
+                        Path to file with (iv,ct) pairs
+  -n N                  field dimension n (bits), default: deduced from file,
+                        or 128 if random
+  -l L, -ell L          number of branches, default: 2 if n in {128,192}, 3 if
+                        n == 256
+  -L L                  number of IVs, default: all if from file, or 1 if
+                        random
+  --only-estimate       Do not run the full attack, only show complexity
+                        estimates
+  --seed SEED           Randomness seed
+  --no-progress-bars    Disable progress bar (for cleaner logs)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -h"
+	User time (seconds): 0.96
+	System time (seconds): 0.15
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 216320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 45721
+	Voluntary context switches: 162
+	Involuntary context switches: 34
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:54:06 PM CET 2026
+CMD |-n 256  -l 3  -L 2  --seed=0  --only-estimate| filename |n256_l3_L2_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF256Element(85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 3 branches
+- L = 2 IVs
+- M = 153 squarings (1 ... 2^(M-1) 2^M)
+- W = 769 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^184.31 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 5
+[i] Squared equations: 770
+[i] W = t-monomials in equations: 769
+
+Arranging equations...
+
+[i] Full equation matrix F: H=770 x W=769
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 769/769   fingerprint 64bf7548609254e6
+[I] Row-degree sum ξ: experimental = 2^156.17, estimated = 2^156.32
+[I] Total nonzero coefficients 473552 <= 2W^2 = 1182722 ? True
+[I] Time complexity 2^182.23 field ops = 2^174.23 encs  (1/n convention)
+[I] Memory complexity : 2^166.76 field elems = 2^171.76 bytes = 4710188522919630211260031316070535582973952.00 GB
+[R1] n=256  ell= 3  L=  2  M=153  W= 769  ξ=2^156.17  Time=2^182.23 field ops  Mem=2^166.76 field elems
+[R2] n=256  ell= 3  L=  2  M=153  W= 769  ξ=2^156.17  Time=2^174.23 enc  Mem=2^171.76 bytes
+
+[W] not running full attack 4710188522919630211260031316070535582973952.0 GB needed, 26.9 GB available
+[i] Real secret key for comparison: GF256Element(85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 3 -L 2 --seed=0 --only-estimate"
+	User time (seconds): 15.53
+	System time (seconds): 0.28
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 461804
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 109089
+	Voluntary context switches: 156
+	Involuntary context switches: 252
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:54:23 PM CET 2026
+CMD |-n 256  -l 3  -L 1  --seed=0  --only-estimate| filename |n256_l3_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF256Element(85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 3 branches
+- L = 1 IVs
+- M = 192 squarings (1 ... 2^(M-1) 2^M)
+- W = 769 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^222.39 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 4
+[i] Squared equations: 772
+[i] W = t-monomials in equations: 769
+
+Arranging equations...
+
+[i] Full equation matrix F: H=772 x W=769
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 769/769   fingerprint 27ff8de41a9c9dfe
+[I] Row-degree sum ξ: experimental = 2^194.32, estimated = 2^194.99
+[I] Total nonzero coefficients 297027 <= 2W^2 = 1182722 ? True
+[I] Time complexity 2^221.19 field ops = 2^213.19 encs  (1/n convention)
+[I] Memory complexity : 2^204.91 field elems = 2^209.91 bytes = 1438585291657554360446251054539291701907727520702136320.00 GB
+[R1] n=256  ell= 3  L=  1  M=192  W= 769  ξ=2^194.32  Time=2^221.19 field ops  Mem=2^204.91 field elems
+[R2] n=256  ell= 3  L=  1  M=192  W= 769  ξ=2^194.32  Time=2^213.19 enc  Mem=2^209.91 bytes
+
+[W] not running full attack 1438585291657554360446251054539291701907727520702136320.0 GB needed, 27.0 GB available
+[i] Real secret key for comparison: GF256Element(85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 3 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 10.94
+	System time (seconds): 0.26
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 412736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 95961
+	Voluntary context switches: 153
+	Involuntary context switches: 335
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:54:34 PM CET 2026
+CMD |-n 256  -l 4  -L 1  --seed=0  --only-estimate| filename |n256_l4_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF256Element(af19922ad9b8a714e61a441c12e0c8b2bad640fb19488dec4f65d4d9259f4329)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 4 branches
+- L = 1 IVs
+- M = 204 squarings (1 ... 2^(M-1) 2^M)
+- W = 1025 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^235.51 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 5
+[i] Squared equations: 1025
+[i] W = t-monomials in equations: 1025
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1025 x W=1025
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1025/1025   fingerprint 133e307dfaca8ca9
+[I] Row-degree sum ξ: experimental = 2^207.32, estimated = 2^207.32
+[I] Total nonzero coefficients 422710 <= 2W^2 = 2101250 ? True
+[I] Time complexity 2^234.55 field ops = 2^226.55 encs  (1/n convention)
+[I] Memory complexity : 2^218.32 field elems = 2^223.32 bytes = 15708079293875360798173057028290669132092076002381922304000.00 GB
+[R1] n=256  ell= 4  L=  1  M=204  W=1025  ξ=2^207.32  Time=2^234.55 field ops  Mem=2^218.32 field elems
+[R2] n=256  ell= 4  L=  1  M=204  W=1025  ξ=2^207.32  Time=2^226.55 enc  Mem=2^223.32 bytes
+
+[W] not running full attack 15708079293875360798173057028290669132092076002381922304000.0 GB needed, 26.8 GB available
+[i] Real secret key for comparison: GF256Element(af19922ad9b8a714e61a441c12e0c8b2bad640fb19488dec4f65d4d9259f4329)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 4 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 18.40
+	System time (seconds): 0.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 520468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 123183
+	Voluntary context switches: 154
+	Involuntary context switches: 271
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:54:54 PM CET 2026
+CMD |-n 256  -l 5  -L 1  --seed=0  --only-estimate| filename |n256_l5_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF256Element(8133287637ebdcd9e87a1613e443df789558867f5ba91faf7a024204f7c1bd87)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 5 branches
+- L = 1 IVs
+- M = 213 squarings (1 ... 2^(M-1) 2^M)
+- W = 1281 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^244.31 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 6
+[i] Squared equations: 1284
+[i] W = t-monomials in equations: 1281
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1284 x W=1281
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1281/1281   fingerprint 36ed13c061e6582e
+[I] Row-degree sum ξ: experimental = 2^216.17, estimated = 2^216.58
+[I] Total nonzero coefficients 548910 <= 2W^2 = 3281922 ? True
+[I] Time complexity 2^243.67 field ops = 2^235.67 encs  (1/n convention)
+[I] Memory complexity : 2^227.49 field elems = 2^232.49 bytes = 9046088238409130315782852032520148263905506989903231737397248.00 GB
+[R1] n=256  ell= 5  L=  1  M=213  W=1281  ξ=2^216.17  Time=2^243.67 field ops  Mem=2^227.49 field elems
+[R2] n=256  ell= 5  L=  1  M=213  W=1281  ξ=2^216.17  Time=2^235.67 enc  Mem=2^232.49 bytes
+
+[W] not running full attack 9046088238409130315782852032520148263905506989903231737397248.0 GB needed, 26.8 GB available
+[i] Real secret key for comparison: GF256Element(8133287637ebdcd9e87a1613e443df789558867f5ba91faf7a024204f7c1bd87)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 5 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 28.01
+	System time (seconds): 0.34
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 648372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 158963
+	Voluntary context switches: 158
+	Involuntary context switches: 445
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:55:23 PM CET 2026
+CMD |-n 256  -l 6  -L 1  --seed=0  --only-estimate| filename |n256_l6_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF256Element(23a7711a8133287637ebdcd9e87a1613e443df789558867f5ba91faf7a024204)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 6 branches
+- L = 1 IVs
+- M = 219 squarings (1 ... 2^(M-1) 2^M)
+- W = 1537 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^250.63 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 7
+[i] Squared equations: 1540
+[i] W = t-monomials in equations: 1537
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1540 x W=1537
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1537/1537   fingerprint 3b929e72c4a0517c
+[I] Row-degree sum ξ: experimental = 2^222.46, estimated = 2^222.80
+[I] Total nonzero coefficients 677160 <= 2W^2 = 4724738 ? True
+[I] Time complexity 2^250.17 field ops = 2^242.17 encs  (1/n convention)
+[I] Memory complexity : 2^234.05 field elems = 2^239.05 bytes = 849015672321460893393373534225376128776340187996427452076261376.00 GB
+[R1] n=256  ell= 6  L=  1  M=219  W=1537  ξ=2^222.46  Time=2^250.17 field ops  Mem=2^234.05 field elems
+[R2] n=256  ell= 6  L=  1  M=219  W=1537  ξ=2^222.46  Time=2^242.17 enc  Mem=2^239.05 bytes
+
+[W] not running full attack 849015672321460893393373534225376128776340187996427452076261376.0 GB needed, 26.6 GB available
+[i] Real secret key for comparison: GF256Element(23a7711a8133287637ebdcd9e87a1613e443df789558867f5ba91faf7a024204)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 6 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 41.30
+	System time (seconds): 0.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 789088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 191247
+	Voluntary context switches: 158
+	Involuntary context switches: 1422
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:56:05 PM CET 2026
+CMD |-n 256  -l 7  -L 1  --seed=0  --only-estimate| filename |n256_l7_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF256Element(6f25e2a25a92118719c78df48f4ff31e78de58575487ce1eaf19922ad9b8a714)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 7 branches
+- L = 1 IVs
+- M = 224 squarings (1 ... 2^(M-1) 2^M)
+- W = 1793 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^255.39 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 8
+[i] Squared equations: 1800
+[i] W = t-monomials in equations: 1793
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1800 x W=1793
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1793/1793   fingerprint 7de3b7884c31a22c
+[I] Row-degree sum ξ: experimental = 2^227.17, estimated = 2^227.99
+[I] Total nonzero coefficients 807971 <= 2W^2 = 6429698 ? True
+[I] Time complexity 2^255.06 field ops = 2^247.06 encs  (1/n convention)
+[I] Memory complexity : 2^238.98 field elems = 2^243.98 bytes = 25931159220207326076420642284109340916900789710672927983258304512.00 GB
+[R1] n=256  ell= 7  L=  1  M=224  W=1793  ξ=2^227.17  Time=2^255.06 field ops  Mem=2^238.98 field elems
+[R2] n=256  ell= 7  L=  1  M=224  W=1793  ξ=2^227.17  Time=2^247.06 enc  Mem=2^243.98 bytes
+
+[W] not running full attack 25931159220207326076420642284109340916900789710672927983258304512.0 GB needed, 26.4 GB available
+[i] Real secret key for comparison: GF256Element(6f25e2a25a92118719c78df48f4ff31e78de58575487ce1eaf19922ad9b8a714)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 7 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 56.18
+	System time (seconds): 0.47
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:56.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 930032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 238247
+	Voluntary context switches: 160
+	Involuntary context switches: 2065
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:57:02 PM CET 2026
+CMD |-n 256  -l 8  -L 1  --seed=0  --only-estimate| filename |n256_l8_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF256Element(c17c627923c6612f4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 8 branches
+- L = 1 IVs
+- M = 227 squarings (1 ... 2^(M-1) 2^M)
+- W = 2049 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^259.12 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 9
+[i] Squared equations: 2052
+[i] W = t-monomials in equations: 2049
+
+Arranging equations...
+
+[i] Full equation matrix F: H=2052 x W=2049
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 2049/2049   fingerprint 3a850726e78407ac
+[I] Row-degree sum ξ: experimental = 2^230.91, estimated = 2^231.17
+[I] Total nonzero coefficients 935712 <= 2W^2 = 8396802 ? True
+[I] Time complexity 2^258.95 field ops = 2^250.95 encs  (1/n convention)
+[I] Memory complexity : 2^242.91 field elems = 2^247.91 bytes = 395113926322400528950257639264845060708159272111313102343902330880.00 GB
+[R1] n=256  ell= 8  L=  1  M=227  W=2049  ξ=2^230.91  Time=2^258.95 field ops  Mem=2^242.91 field elems
+[R2] n=256  ell= 8  L=  1  M=227  W=2049  ξ=2^230.91  Time=2^250.95 enc  Mem=2^247.91 bytes
+
+[W] not running full attack 395113926322400528950257639264845060708159272111313102343902330880.0 GB needed, 26.4 GB available
+[i] Real secret key for comparison: GF256Element(c17c627923c6612f4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 8 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 75.56
+	System time (seconds): 0.50
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1086676
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 295574
+	Voluntary context switches: 158
+	Involuntary context switches: 1066
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:58:19 PM CET 2026
+CMD |-n 256  -l 9  -L 1  --seed=0  --only-estimate| filename |n256_l9_L1_seed=0_onlyestimate|
+[i] Seed: 0
+[i] Secret key: GF256Element(cca5a5a19e4d6e3c1846d424c17c627923c6612f4826867323a7711a81332876)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 9 branches
+- L = 1 IVs
+- M = 230 squarings (1 ... 2^(M-1) 2^M)
+- W = 2305 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^262.11 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 10
+[i] Squared equations: 2310
+[i] W = t-monomials in equations: 2305
+
+Arranging equations...
+
+[i] Full equation matrix F: H=2310 x W=2305
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 2305/2305   fingerprint 641bcc4520db1533
+[I] Row-degree sum ξ: experimental = 2^233.91, estimated = 2^234.32
+[I] Total nonzero coefficients 1066525 <= 2W^2 = 10626050 ? True
+[I] Time complexity 2^262.08 field ops = 2^254.08 encs  (1/n convention)
+[I] Memory complexity : 2^246.08 field elems = 2^251.08 bytes = 3555832504336293681719253717932524606861130784642563985954884812800.00 GB
+[R1] n=256  ell= 9  L=  1  M=230  W=2305  ξ=2^233.91  Time=2^262.08 field ops  Mem=2^246.08 field elems
+[R2] n=256  ell= 9  L=  1  M=230  W=2305  ξ=2^233.91  Time=2^254.08 enc  Mem=2^251.08 bytes
+
+[W] not running full attack 3555832504336293681719253717932524606861130784642563985954884812800.0 GB needed, 26.1 GB available
+[i] Real secret key for comparison: GF256Element(cca5a5a19e4d6e3c1846d424c17c627923c6612f4826867323a7711a81332876)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 9 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 97.85
+	System time (seconds): 0.73
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:38.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1248456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 348586
+	Voluntary context switches: 153
+	Involuntary context switches: 3437
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 06:59:58 PM CET 2026
+CMD |-h| filename |h|
+usage: attack-aim2.py [-h] [--pairs-file PAIRS_FILE] [-n N] [-l L] [-L L]
+                      [--only-estimate] [--seed SEED] [--no-progress-bars]
+
+options:
+  -h, --help            show this help message and exit
+  --pairs-file PAIRS_FILE
+                        Path to file with (iv,ct) pairs
+  -n N                  field dimension n (bits), default: deduced from file,
+                        or 128 if random
+  -l L, -ell L          number of branches, default: 2 if n in {128,192}, 3 if
+                        n == 256
+  -L L                  number of IVs, default: all if from file, or 1 if
+                        random
+  --only-estimate       Do not run the full attack, only show complexity
+                        estimates
+  --seed SEED           Randomness seed
+  --no-progress-bars    Disable progress bar (for cleaner logs)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -h"
+	User time (seconds): 0.95
+	System time (seconds): 0.15
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 216288
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 45696
+	Voluntary context switches: 148
+	Involuntary context switches: 45
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 07:00:00 PM CET 2026
+CMD |-n 128  -l 2  -L 127  --seed=0| filename |n128_l2_L127_seed=0|
+single_approximant: len(flat_coeffs) = 129548
+single_approximant: d = 77 / 772 (10.0 %)
+single_approximant: d = 154 / 772 (19.9 %)
+single_approximant: d = 231 / 772 (29.9 %)
+single_approximant: d = 308 / 772 (39.9 %)
+single_approximant: d = 385 / 772 (49.9 %)
+single_approximant: d = 462 / 772 (59.8 %)
+single_approximant: d = 539 / 772 (69.8 %)
+single_approximant: d = 616 / 772 (79.8 %)
+single_approximant: d = 693 / 772 (89.8 %)
+single_approximant: d = 770 / 772 (99.7 %)
+[i] Seed: 0
+[i] Secret key: GF128Element(8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 2 branches
+- L = 127 IVs
+- M = 1 squarings (1 ... 2^(M-1) 2^M)
+- W = 257 t-monomials
+- Only estimate ? False
+
+[I] Time complexity rough estimate = 2^34.39 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 129
+[i] Squared equations: 258
+[i] W = t-monomials in equations: 257
+
+Arranging equations...
+
+[i] Full equation matrix F: H=258 x W=257
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 257/257   fingerprint 1d45e9a9c97065da
+[I] Row-degree sum ξ: experimental = 2^8.59, estimated = 2^9.01
+[I] Total nonzero coefficients 130054 <= 2W^2 = 132098 ? True
+[I] Time complexity 2^27.30 field ops = 2^20.30 encs  (1/n convention)
+[I] Memory complexity : 2^19.71 field elems = 2^23.71 bytes = 0.01 GB
+[R1] n=128  ell= 2  L=127  M=  1  W= 257  ξ=2^  8.59  Time=2^ 27.30 field ops  Mem=2^ 19.71 field elems
+[R2] n=128  ell= 2  L=127  M=  1  W= 257  ξ=2^  8.59  Time=2^ 20.30 enc  Mem=2^ 23.71 bytes
+
+[i] Running full attack 0.0 GB needed, 26.9 GB available
+
+[o] Approximant order o = 772 = 2^9.59
+[i] FAFFT max degree 2^11
+[T] Main attack part, start time measurement  | memory usage: 0.26 GB
+
+[.] Computing pivots of G0 for inversion...
+[.] Inversion of base matrix...
+[.] Single approximant...
+[T] TIME after single approximant: 1.8990998268127441  | memory usage: 0.27 GB
+
+[i] Kernel len = 257 degrees = [771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 0]
+[T] TIME after first HalfGCD: 1.968703269958496  | memory usage: 0.27 GB
+[i] Degrees of kernel * F [-1, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383]
+[i] Got univariate poly in p, degree 385
+[T] TIME to get univariate polynomial: 2.1583197116851807  | memory usage: 0.27 GB
+
+[T] TIME pre gcd (x^(2^n)-x mod f): 2.3165040016174316  | memory usage: 0.27 GB
+gcd polynomial 303970471366367368753382270150771135530*x + 94791176224668185368345639722922262984
+[T] TIME post gcd: 2.3331828117370605  | memory usage: 0.27 GB
+found roots:
+- 8133287637ebdcd9e87a1613e443df78 | 127 / 127 match
+[T] TIME full attack (main part only): 2.7889373302459717  | memory usage: 0.28 GB
+[i] Real secret key for comparison: GF128Element(8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 2 -L 127 --seed=0"
+	User time (seconds): 17.01
+	System time (seconds): 0.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 297928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 68448
+	Voluntary context switches: 154
+	Involuntary context switches: 506
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 07:00:17 PM CET 2026
+CMD |-n 192  -l 2  -L 191  --seed=0| filename |n192_l2_L191_seed=0|
+single_approximant: len(flat_coeffs) = 292620
+single_approximant: d = 115 / 1156 (9.9 %)
+single_approximant: d = 230 / 1156 (19.9 %)
+single_approximant: d = 345 / 1156 (29.8 %)
+single_approximant: d = 460 / 1156 (39.8 %)
+single_approximant: d = 575 / 1156 (49.7 %)
+single_approximant: d = 690 / 1156 (59.7 %)
+single_approximant: d = 805 / 1156 (69.6 %)
+single_approximant: d = 920 / 1156 (79.6 %)
+single_approximant: d = 1035 / 1156 (89.5 %)
+single_approximant: d = 1150 / 1156 (99.5 %)
+[i] Seed: 0
+[i] Secret key: GF192Element(4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 2 branches
+- L = 191 IVs
+- M = 1 squarings (1 ... 2^(M-1) 2^M)
+- W = 385 t-monomials
+- Only estimate ? False
+
+[I] Time complexity rough estimate = 2^36.73 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 193
+[i] Squared equations: 386
+[i] W = t-monomials in equations: 385
+
+Arranging equations...
+
+[i] Full equation matrix F: H=386 x W=385
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 385/385   fingerprint 6380e53aacb5b510
+[I] Row-degree sum ξ: experimental = 2^9.17, estimated = 2^9.59
+[I] Total nonzero coefficients 293382 <= 2W^2 = 296450 ? True
+[I] Time complexity 2^29.02 field ops = 2^21.43 encs  (1/n convention)
+[I] Memory complexity : 2^20.88 field elems = 2^25.46 bytes = 0.04 GB
+[R1] n=192  ell= 2  L=191  M=  1  W= 385  ξ=2^  9.17  Time=2^ 29.02 field ops  Mem=2^ 20.88 field elems
+[R2] n=192  ell= 2  L=191  M=  1  W= 385  ξ=2^  9.17  Time=2^ 21.43 enc  Mem=2^ 25.46 bytes
+
+[i] Running full attack 0.0 GB needed, 26.7 GB available
+
+[o] Approximant order o = 1156 = 2^10.17
+[i] FAFFT max degree 2^12
+[T] Main attack part, start time measurement  | memory usage: 0.31 GB
+
+[.] Computing pivots of G0 for inversion...
+[.] Inversion of base matrix...
+[.] Single approximant...
+[T] TIME after single approximant: 9.947845458984375  | memory usage: 0.36 GB
+
+[i] Kernel len = 385 degrees = [1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 1155, 0]
+[T] TIME after first HalfGCD: 10.05132532119751  | memory usage: 0.36 GB
+[i] Degrees of kernel * F [-1, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 576, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575, 575]
+[i] Got univariate poly in p, degree 577
+[T] TIME to get univariate polynomial: 10.45918869972229  | memory usage: 0.32 GB
+
+[T] TIME pre gcd (x^(2^n)-x mod f): 11.079707145690918  | memory usage: 0.32 GB
+gcd polynomial 5261367445086508685759714455113489258910397866001875552083*x + 762430575403149870111618783668389620852978377381305242459
+[T] TIME post gcd: 11.118046045303345  | memory usage: 0.32 GB
+found roots:
+- 4826867323a7711a8133287637ebdcd9e87a1613e443df78 | 191 / 191 match
+[T] TIME full attack (main part only): 13.042763948440552  | memory usage: 0.32 GB
+[i] Real secret key for comparison: GF192Element(4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 2 -L 191 --seed=0"
+	User time (seconds): 59.54
+	System time (seconds): 0.26
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:59.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 399296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 107782
+	Voluntary context switches: 157
+	Involuntary context switches: 1587
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 07:01:18 PM CET 2026
+CMD |-n 256  -l 3  -L 382  --seed=0| filename |n256_l3_L382_seed=0|
+single_approximant: len(flat_coeffs) = 1171986
+single_approximant: d = 230 / 2308 (10.0 %)
+single_approximant: d = 460 / 2308 (19.9 %)
+single_approximant: d = 690 / 2308 (29.9 %)
+single_approximant: d = 920 / 2308 (39.9 %)
+single_approximant: d = 1150 / 2308 (49.8 %)
+single_approximant: d = 1380 / 2308 (59.8 %)
+single_approximant: d = 1610 / 2308 (69.8 %)
+single_approximant: d = 1840 / 2308 (79.7 %)
+single_approximant: d = 2070 / 2308 (89.7 %)
+single_approximant: d = 2300 / 2308 (99.7 %)
+[i] Seed: 0
+[i] Secret key: GF256Element(85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 3 branches
+- L = 382 IVs
+- M = 1 squarings (1 ... 2^(M-1) 2^M)
+- W = 769 t-monomials
+- Only estimate ? False
+
+[I] Time complexity rough estimate = 2^38.98 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 385
+[i] Squared equations: 770
+[i] W = t-monomials in equations: 769
+
+Arranging equations...
+
+[i] Full equation matrix F: H=770 x W=769
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 769/769   fingerprint 7dab92a306e29639
+[I] Row-degree sum ξ: experimental = 2^10.17, estimated = 2^10.59
+[I] Total nonzero coefficients 1173512 <= 2W^2 = 1182722 ? True
+[I] Time complexity 2^31.97 field ops = 2^23.97 encs  (1/n convention)
+[I] Memory complexity : 2^22.87 field elems = 2^27.87 bytes = 0.23 GB
+[R1] n=256  ell= 3  L=382  M=  1  W= 769  ξ=2^ 10.17  Time=2^ 31.97 field ops  Mem=2^ 22.87 field elems
+[R2] n=256  ell= 3  L=382  M=  1  W= 769  ξ=2^ 10.17  Time=2^ 23.97 enc  Mem=2^ 27.87 bytes
+
+[i] Running full attack 0.2 GB needed, 26.9 GB available
+
+[o] Approximant order o = 2308 = 2^11.17
+[i] FAFFT max degree 2^13
+[T] Main attack part, start time measurement  | memory usage: 0.53 GB
+
+[.] Computing pivots of G0 for inversion...
+[.] Inversion of base matrix...
+[.] Single approximant...
+[T] TIME after single approximant: 91.58822751045227  | memory usage: 0.76 GB
+
+[i] Kernel len = 769 degrees = [2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 2307, 0]
+[T] TIME after first HalfGCD: 91.7939453125  | memory usage: 0.76 GB
+[i] Degrees of kernel * F [-1, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1152, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151, 1151]
+[i] Got univariate poly in p, degree 1153
+[T] TIME to get univariate polynomial: 93.53640699386597  | memory usage: 0.62 GB
+
+[T] TIME pre gcd (x^(2^n)-x mod f): 95.50593590736389  | memory usage: 0.62 GB
+gcd polynomial 103914261914264547281556383957411349165213548623845887692228668547064868818099*x + 20097989428027943505651152013500366929842432518230439654229228151936080170798
+[T] TIME post gcd: 95.60750555992126  | memory usage: 0.62 GB
+found roots:
+- 85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc | 382 / 382 match
+[T] TIME full attack (main part only): 104.30209493637085  | memory usage: 0.62 GB
+[i] Real secret key for comparison: GF256Element(85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 3 -L 382 --seed=0"
+	User time (seconds): 309.09
+	System time (seconds): 0.59
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:10.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 869100
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 307707
+	Voluntary context switches: 147
+	Involuntary context switches: 4230
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 07:06:28 PM CET 2026
+CMD |-h| filename |h|
+usage: attack-aim2.py [-h] [--pairs-file PAIRS_FILE] [-n N] [-l L] [-L L]
+                      [--only-estimate] [--seed SEED] [--no-progress-bars]
+
+options:
+  -h, --help            show this help message and exit
+  --pairs-file PAIRS_FILE
+                        Path to file with (iv,ct) pairs
+  -n N                  field dimension n (bits), default: deduced from file,
+                        or 128 if random
+  -l L, -ell L          number of branches, default: 2 if n in {128,192}, 3 if
+                        n == 256
+  -L L                  number of IVs, default: all if from file, or 1 if
+                        random
+  --only-estimate       Do not run the full attack, only show complexity
+                        estimates
+  --seed SEED           Randomness seed
+  --no-progress-bars    Disable progress bar (for cleaner logs)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -h"
+	User time (seconds): 0.96
+	System time (seconds): 0.18
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 216548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 45617
+	Voluntary context switches: 158
+	Involuntary context switches: 30
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 07:06:30 PM CET 2026
+CMD |-n 128  -l 2  -L 15  --seed=0| filename |n128_l2_L15_seed=0|
+single_approximant: len(flat_coeffs) = 115296
+single_approximant: d = 124515 / 1245152 (10.0 %)
+single_approximant: d = 249030 / 1245152 (20.0 %)
+single_approximant: d = 373545 / 1245152 (30.0 %)
+single_approximant: d = 498060 / 1245152 (40.0 %)
+single_approximant: d = 622575 / 1245152 (50.0 %)
+single_approximant: d = 747090 / 1245152 (60.0 %)
+single_approximant: d = 871605 / 1245152 (70.0 %)
+single_approximant: d = 996120 / 1245152 (80.0 %)
+single_approximant: d = 1120635 / 1245152 (90.0 %)
+single_approximant: d = 1245150 / 1245152 (100.0 %)
+[i] Seed: 0
+[i] Secret key: GF128Element(8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 2 branches
+- L = 15 IVs
+- M = 15 squarings (1 ... 2^(M-1) 2^M)
+- W = 257 t-monomials
+- Only estimate ? False
+
+[I] Time complexity rough estimate = 2^44.54 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 17
+[i] Squared equations: 272
+[i] W = t-monomials in equations: 257
+
+Arranging equations...
+
+[i] Full equation matrix F: H=272 x W=257
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 257/257   fingerprint 4e946fedc9e544fe
+[I] Row-degree sum ξ: experimental = 2^19.25, estimated = 2^20.01
+[I] Total nonzero coefficients 115746 <= 2W^2 = 132098 ? True
+[I] Time complexity 2^38.44 field ops = 2^31.44 encs  (1/n convention)
+[I] Memory complexity : 2^28.26 field elems = 2^32.26 bytes = 4.78 GB
+[R1] n=128  ell= 2  L= 15  M= 15  W= 257  ξ=2^ 19.25  Time=2^ 38.44 field ops  Mem=2^ 28.26 field elems
+[R2] n=128  ell= 2  L= 15  M= 15  W= 257  ξ=2^ 19.25  Time=2^ 31.44 enc  Mem=2^ 32.26 bytes
+
+[i] Running full attack 4.8 GB needed, 27.2 GB available
+
+[o] Approximant order o = 1245152 = 2^20.25
+[i] FAFFT max degree 2^22
+[T] Main attack part, start time measurement  | memory usage: 0.36 GB
+
+[.] Computing pivots of G0 for inversion...
+[.] Inversion of base matrix...
+[.] Single approximant...
+[T] TIME after single approximant: 2914.7153260707855  | memory usage: 5.14 GB
+
+[i] Kernel len = 257 degrees = [1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 1245151, 0]
+[T] TIME after first HalfGCD: 3022.682706594467  | memory usage: 5.29 GB
+[i] Degrees of kernel * F [-1, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622574, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622573, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622571, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622567, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622559, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622543, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622511, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622447, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622319, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 622063, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 621551, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 620527, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 618479, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 614383, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 606191, 589807, 589807]
+[i] Got univariate poly in p, degree 622575
+[T] TIME to get univariate polynomial: 3378.266318321228  | memory usage: 0.54 GB
+
+[T] TIME pre gcd (x^(2^n)-x mod f): 3923.816002845764  | memory usage: 0.54 GB
+gcd polynomial 27579094354236234630180630606030595218*x^4 + 200087440701592376187738254364860238824*x^3 + 282343424055790168288398514166200996127*x^2 + 43495736422644584443065654184802927523*x + 119436146872784091225779403384328625883
+[T] TIME post gcd: 4334.542885065079  | memory usage: 0.55 GB
+found roots:
+- 202a915d81b17132df9984fc6949d5f0 | 0 / 15 match
+- 7418ba672f26c7b9ab06aac5dc14025c | 0 / 15 match
+- 8133287637ebdcd9e87a1613e443df78 | 15 / 15 match
+- ea7ab505113fc43769be199d016807eb | 0 / 15 match
+[T] TIME full attack (main part only): 4334.787640333176  | memory usage: 0.55 GB
+[i] Real secret key for comparison: GF128Element(8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 2 -L 15 --seed=0"
+	User time (seconds): 4327.34
+	System time (seconds): 6.07
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:12:19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5607032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3321128
+	Voluntary context switches: 288
+	Involuntary context switches: 93624
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 08:18:50 PM CET 2026
+CMD |-n 192  -l 2  -L 31  --seed=0| filename |n192_l2_L31_seed=0|
+single_approximant: len(flat_coeffs) = 277320
+single_approximant: d = 22521 / 225216 (10.0 %)
+single_approximant: d = 45042 / 225216 (20.0 %)
+single_approximant: d = 67563 / 225216 (30.0 %)
+single_approximant: d = 90084 / 225216 (40.0 %)
+single_approximant: d = 112605 / 225216 (50.0 %)
+single_approximant: d = 135126 / 225216 (60.0 %)
+single_approximant: d = 157647 / 225216 (70.0 %)
+single_approximant: d = 180168 / 225216 (80.0 %)
+single_approximant: d = 202689 / 225216 (90.0 %)
+single_approximant: d = 225210 / 225216 (100.0 %)
+[i] Seed: 0
+[i] Secret key: GF192Element(4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 2 branches
+- L = 31 IVs
+- M = 11 squarings (1 ... 2^(M-1) 2^M)
+- W = 385 t-monomials
+- Only estimate ? False
+
+[I] Time complexity rough estimate = 2^43.83 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 33
+[i] Squared equations: 396
+[i] W = t-monomials in equations: 385
+
+Arranging equations...
+
+[i] Full equation matrix F: H=396 x W=385
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 385/385   fingerprint 16ed880eba85ee5e
+[I] Row-degree sum ξ: experimental = 2^16.78, estimated = 2^17.00
+[I] Total nonzero coefficients 278042 <= 2W^2 = 296450 ? True
+[I] Time complexity 2^36.83 field ops = 2^29.25 encs  (1/n convention)
+[I] Memory complexity : 2^26.39 field elems = 2^30.98 bytes = 1.97 GB
+[R1] n=192  ell= 2  L= 31  M= 11  W= 385  ξ=2^ 16.78  Time=2^ 36.83 field ops  Mem=2^ 26.39 field elems
+[R2] n=192  ell= 2  L= 31  M= 11  W= 385  ξ=2^ 16.78  Time=2^ 29.25 enc  Mem=2^ 30.98 bytes
+
+[i] Running full attack 2.0 GB needed, 26.5 GB available
+
+[o] Approximant order o = 225216 = 2^17.78
+[i] FAFFT max degree 2^19
+[T] Main attack part, start time measurement  | memory usage: 0.36 GB
+
+[.] Computing pivots of G0 for inversion...
+[.] Inversion of base matrix...
+[.] Single approximant...
+[T] TIME after single approximant: 1514.0003073215485  | memory usage: 2.98 GB
+
+[i] Kernel len = 385 degrees = [225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 225215, 0]
+[T] TIME after first HalfGCD: 1536.2721934318542  | memory usage: 3.01 GB
+[i] Degrees of kernel * F [-1, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112606, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112605, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112603, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112599, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112591, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112575, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112543, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112479, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112351, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 112095, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 111583, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559, 110559]
+[i] Got univariate poly in p, degree 112607
+[T] TIME to get univariate polynomial: 1697.4065511226654  | memory usage: 3.00 GB
+
+[T] TIME pre gcd (x^(2^n)-x mod f): 1867.6398496627808  | memory usage: 3.00 GB
+gcd polynomial 2513943643002248426683559061439457381823234692549596309056*x + 2219634668406028432321250524276652341979282811472335968268
+[T] TIME post gcd: 1913.0112843513489  | memory usage: 3.00 GB
+found roots:
+- 4826867323a7711a8133287637ebdcd9e87a1613e443df78 | 31 / 31 match
+[T] TIME full attack (main part only): 1913.3077821731567  | memory usage: 3.01 GB
+[i] Real secret key for comparison: GF192Element(4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 2 -L 31 --seed=0"
+	User time (seconds): 1922.38
+	System time (seconds): 1.57
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 32:06.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3181220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 837300
+	Voluntary context switches: 162
+	Involuntary context switches: 33718
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Sat Feb 14 08:50:57 PM CET 2026
+CMD |-n 256  -l 3  -L 94  --seed=0| filename |n256_l3_L94_seed=0|
+single_approximant: len(flat_coeffs) = 1144392
+single_approximant: d = 4768 / 47680 (10.0 %)
+single_approximant: d = 9536 / 47680 (20.0 %)
+single_approximant: d = 14304 / 47680 (30.0 %)
+single_approximant: d = 19072 / 47680 (40.0 %)
+single_approximant: d = 23840 / 47680 (50.0 %)
+single_approximant: d = 28608 / 47680 (60.0 %)
+single_approximant: d = 33376 / 47680 (70.0 %)
+single_approximant: d = 38144 / 47680 (80.0 %)
+single_approximant: d = 42912 / 47680 (90.0 %)
+[i] Seed: 0
+[i] Secret key: GF256Element(85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 3 branches
+- L = 94 IVs
+- M = 7 squarings (1 ... 2^(M-1) 2^M)
+- W = 769 t-monomials
+- Only estimate ? False
+
+[I] Time complexity rough estimate = 2^42.91 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 97
+[i] Squared equations: 776
+[i] W = t-monomials in equations: 769
+
+Arranging equations...
+
+[i] Full equation matrix F: H=776 x W=769
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 769/769   fingerprint 1162d4aef9531eeb
+[I] Row-degree sum ξ: experimental = 2^14.54, estimated = 2^14.59
+[I] Total nonzero coefficients 1145882 <= 2W^2 = 1182722 ? True
+[I] Time complexity 2^36.38 field ops = 2^28.38 encs  (1/n convention)
+[I] Memory complexity : 2^25.34 field elems = 2^30.34 bytes = 1.27 GB
+[R1] n=256  ell= 3  L= 94  M=  7  W= 769  ξ=2^ 14.54  Time=2^ 36.38 field ops  Mem=2^ 25.34 field elems
+[R2] n=256  ell= 3  L= 94  M=  7  W= 769  ξ=2^ 14.54  Time=2^ 28.38 enc  Mem=2^ 30.34 bytes
+
+[i] Running full attack 1.3 GB needed, 26.2 GB available
+
+[o] Approximant order o = 47680 = 2^15.54
+[i] FAFFT max degree 2^17
+[T] Main attack part, start time measurement  | memory usage: 0.53 GB
+
+[.] Computing pivots of G0 for inversion...
+[.] Inversion of base matrix...
+[.] Single approximant...
+[T] TIME after single approximant: 1519.5972015857697  | memory usage: 1.80 GB
+
+[i] Kernel len = 769 degrees = [47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 47679, 0]
+[T] TIME after first HalfGCD: 1522.994589805603  | memory usage: 1.80 GB
+[i] Degrees of kernel * F [-1, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23838, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23837, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23835, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23831, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23823, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23807, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23775, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711, 23711]
+[i] Got univariate poly in p, degree 23839
+[T] TIME to get univariate polynomial: 1603.1405885219574  | memory usage: 0.60 GB
+
+[T] TIME pre gcd (x^(2^n)-x mod f): 1661.7970190048218  | memory usage: 0.60 GB
+gcd polynomial 35580927188873759620725571502116238855273777678198120416071273428059549328188*x^2 + 11662948937150467980668909574114221967315859469146093846290491557943500408854*x + 105582769467101476758003646208559465019360161825744509740636397568415944105732
+[T] TIME post gcd: 1667.4855914115906  | memory usage: 0.60 GB
+found roots:
+- 85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc | 94 / 94 match
+- bc5dd93f12da167a978e074e1f76d9d7573b76b9cff3e2101bced3197b2e57fc | 0 / 94 match
+[T] TIME full attack (main part only): 1671.7073204517365  | memory usage: 0.60 GB
+[i] Real secret key for comparison: GF256Element(85776e9add84f39e71545a137a1d50068d723104f77383c13458a748e9bb17bc)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 3 -L 94 --seed=0"
+	User time (seconds): 1743.18
+	System time (seconds): 1.32
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 29:07.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1957932
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 580976
+	Voluntary context switches: 158
+	Involuntary context switches: 39554
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

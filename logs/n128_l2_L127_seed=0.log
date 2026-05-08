@@ -1,0 +1,93 @@
+single_approximant: len(flat_coeffs) = 129548
+single_approximant: d = 77 / 772 (10.0 %)
+single_approximant: d = 154 / 772 (19.9 %)
+single_approximant: d = 231 / 772 (29.9 %)
+single_approximant: d = 308 / 772 (39.9 %)
+single_approximant: d = 385 / 772 (49.9 %)
+single_approximant: d = 462 / 772 (59.8 %)
+single_approximant: d = 539 / 772 (69.8 %)
+single_approximant: d = 616 / 772 (79.8 %)
+single_approximant: d = 693 / 772 (89.8 %)
+single_approximant: d = 770 / 772 (99.7 %)
+[i] Seed: 0
+[i] Secret key: GF128Element(8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 2 branches
+- L = 127 IVs
+- M = 1 squarings (1 ... 2^(M-1) 2^M)
+- W = 257 t-monomials
+- Only estimate ? False
+
+[I] Time complexity rough estimate = 2^34.39 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 129
+[i] Squared equations: 258
+[i] W = t-monomials in equations: 257
+
+Arranging equations...
+
+[i] Full equation matrix F: H=258 x W=257
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 257/257   fingerprint 1d45e9a9c97065da
+[I] Row-degree sum ξ: experimental = 2^8.59, estimated = 2^9.01
+[I] Total nonzero coefficients 130054 <= 2W^2 = 132098 ? True
+[I] Time complexity 2^27.30 field ops = 2^20.30 encs  (1/n convention)
+[I] Memory complexity : 2^19.71 field elems = 2^23.71 bytes = 0.01 GB
+[R1] n=128  ell= 2  L=127  M=  1  W= 257  ξ=2^  8.59  Time=2^ 27.30 field ops  Mem=2^ 19.71 field elems
+[R2] n=128  ell= 2  L=127  M=  1  W= 257  ξ=2^  8.59  Time=2^ 20.30 enc  Mem=2^ 23.71 bytes
+
+[i] Running full attack 0.0 GB needed, 26.9 GB available
+
+[o] Approximant order o = 772 = 2^9.59
+[i] FAFFT max degree 2^11
+[T] Main attack part, start time measurement  | memory usage: 0.26 GB
+
+[.] Computing pivots of G0 for inversion...
+[.] Inversion of base matrix...
+[.] Single approximant...
+[T] TIME after single approximant: 1.8990998268127441  | memory usage: 0.27 GB
+
+[i] Kernel len = 257 degrees = [771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 771, 0]
+[T] TIME after first HalfGCD: 1.968703269958496  | memory usage: 0.27 GB
+[i] Degrees of kernel * F [-1, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 384, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383, 383]
+[i] Got univariate poly in p, degree 385
+[T] TIME to get univariate polynomial: 2.1583197116851807  | memory usage: 0.27 GB
+
+[T] TIME pre gcd (x^(2^n)-x mod f): 2.3165040016174316  | memory usage: 0.27 GB
+gcd polynomial 303970471366367368753382270150771135530*x + 94791176224668185368345639722922262984
+[T] TIME post gcd: 2.3331828117370605  | memory usage: 0.27 GB
+found roots:
+- 8133287637ebdcd9e87a1613e443df78 | 127 / 127 match
+[T] TIME full attack (main part only): 2.7889373302459717  | memory usage: 0.28 GB
+[i] Real secret key for comparison: GF128Element(8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 2 -L 127 --seed=0"
+	User time (seconds): 17.01
+	System time (seconds): 0.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 297928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 68448
+	Voluntary context switches: 154
+	Involuntary context switches: 506
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,60 @@
+[i] Seed: 0
+[i] Secret key: GF256Element(c17c627923c6612f4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 8 branches
+- L = 1 IVs
+- M = 227 squarings (1 ... 2^(M-1) 2^M)
+- W = 2049 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^259.12 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 9
+[i] Squared equations: 2052
+[i] W = t-monomials in equations: 2049
+
+Arranging equations...
+
+[i] Full equation matrix F: H=2052 x W=2049
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 2049/2049   fingerprint 3a850726e78407ac
+[I] Row-degree sum ξ: experimental = 2^230.91, estimated = 2^231.17
+[I] Total nonzero coefficients 935712 <= 2W^2 = 8396802 ? True
+[I] Time complexity 2^258.95 field ops = 2^250.95 encs  (1/n convention)
+[I] Memory complexity : 2^242.91 field elems = 2^247.91 bytes = 395113926322400528950257639264845060708159272111313102343902330880.00 GB
+[R1] n=256  ell= 8  L=  1  M=227  W=2049  ξ=2^230.91  Time=2^258.95 field ops  Mem=2^242.91 field elems
+[R2] n=256  ell= 8  L=  1  M=227  W=2049  ξ=2^230.91  Time=2^250.95 enc  Mem=2^247.91 bytes
+
+[W] not running full attack 395113926322400528950257639264845060708159272111313102343902330880.0 GB needed, 26.4 GB available
+[i] Real secret key for comparison: GF256Element(c17c627923c6612f4826867323a7711a8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 8 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 75.56
+	System time (seconds): 0.50
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:16.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1086676
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 295574
+	Voluntary context switches: 158
+	Involuntary context switches: 1066
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

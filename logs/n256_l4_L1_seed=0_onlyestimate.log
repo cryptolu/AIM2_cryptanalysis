@@ -1,0 +1,60 @@
+[i] Seed: 0
+[i] Secret key: GF256Element(af19922ad9b8a714e61a441c12e0c8b2bad640fb19488dec4f65d4d9259f4329)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 256 bits
+- ell = 4 branches
+- L = 1 IVs
+- M = 204 squarings (1 ... 2^(M-1) 2^M)
+- W = 1025 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^235.51 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 5
+[i] Squared equations: 1025
+[i] W = t-monomials in equations: 1025
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1025 x W=1025
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1025/1025   fingerprint 133e307dfaca8ca9
+[I] Row-degree sum ξ: experimental = 2^207.32, estimated = 2^207.32
+[I] Total nonzero coefficients 422710 <= 2W^2 = 2101250 ? True
+[I] Time complexity 2^234.55 field ops = 2^226.55 encs  (1/n convention)
+[I] Memory complexity : 2^218.32 field elems = 2^223.32 bytes = 15708079293875360798173057028290669132092076002381922304000.00 GB
+[R1] n=256  ell= 4  L=  1  M=204  W=1025  ξ=2^207.32  Time=2^234.55 field ops  Mem=2^218.32 field elems
+[R2] n=256  ell= 4  L=  1  M=204  W=1025  ξ=2^207.32  Time=2^226.55 enc  Mem=2^223.32 bytes
+
+[W] not running full attack 15708079293875360798173057028290669132092076002381922304000.0 GB needed, 26.8 GB available
+[i] Real secret key for comparison: GF256Element(af19922ad9b8a714e61a441c12e0c8b2bad640fb19488dec4f65d4d9259f4329)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 256 -l 4 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 18.40
+	System time (seconds): 0.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 520468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 123183
+	Voluntary context switches: 154
+	Involuntary context switches: 271
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

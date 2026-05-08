@@ -1,0 +1,60 @@
+[i] Seed: 0
+[i] Secret key: GF192Element(a0116be5ab0c1681c8f8e3d0d3290a4cb5d32b1666194cb1)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 8 branches
+- L = 1 IVs
+- M = 170 squarings (1 ... 2^(M-1) 2^M)
+- W = 1537 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^200.98 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 9
+[i] Squared equations: 1539
+[i] W = t-monomials in equations: 1537
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1539 x W=1537
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1537/1537   fingerprint 7d051d0fbff76dd9
+[I] Row-degree sum ξ: experimental = 2^174.00, estimated = 2^174.17
+[I] Total nonzero coefficients 526681 <= 2W^2 = 4724738 ? True
+[I] Time complexity 2^200.84 field ops = 2^193.26 encs  (1/n convention)
+[I] Memory complexity : 2^185.59 field elems = 2^190.17 bytes = 1645259777766795252889939151282905518465211170816.00 GB
+[R1] n=192  ell= 8  L=  1  M=170  W=1537  ξ=2^174.00  Time=2^200.84 field ops  Mem=2^185.59 field elems
+[R2] n=192  ell= 8  L=  1  M=170  W=1537  ξ=2^174.00  Time=2^193.26 enc  Mem=2^190.17 bytes
+
+[W] not running full attack 1645259777766795252889939151282905518465211170816.0 GB needed, 26.7 GB available
+[i] Real secret key for comparison: GF192Element(a0116be5ab0c1681c8f8e3d0d3290a4cb5d32b1666194cb1)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 8 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 38.48
+	System time (seconds): 0.37
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 746224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 179677
+	Voluntary context switches: 154
+	Involuntary context switches: 1057
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

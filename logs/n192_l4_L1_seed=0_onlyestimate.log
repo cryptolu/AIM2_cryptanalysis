@@ -1,0 +1,60 @@
+[i] Seed: 0
+[i] Secret key: GF192Element(cca5a5a19e4d6e3c1846d424c17c627923c6612f48268673)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 192 bits
+- ell = 4 branches
+- L = 1 IVs
+- M = 153 squarings (1 ... 2^(M-1) 2^M)
+- W = 769 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^183.07 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 5
+[i] Squared equations: 770
+[i] W = t-monomials in equations: 769
+
+Arranging equations...
+
+[i] Full equation matrix F: H=770 x W=769
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 769/769   fingerprint 37f8df87ac792bfe
+[I] Row-degree sum ξ: experimental = 2^156.17, estimated = 2^156.32
+[I] Total nonzero coefficients 237162 <= 2W^2 = 1182722 ? True
+[I] Time complexity 2^182.19 field ops = 2^174.60 encs  (1/n convention)
+[I] Memory complexity : 2^166.76 field elems = 2^171.34 bytes = 3532641392189722658445023487052901687230464.00 GB
+[R1] n=192  ell= 4  L=  1  M=153  W= 769  ξ=2^156.17  Time=2^182.19 field ops  Mem=2^166.76 field elems
+[R2] n=192  ell= 4  L=  1  M=153  W= 769  ξ=2^156.17  Time=2^174.60 enc  Mem=2^171.34 bytes
+
+[W] not running full attack 3532641392189722658445023487052901687230464.0 GB needed, 27.0 GB available
+[i] Real secret key for comparison: GF192Element(cca5a5a19e4d6e3c1846d424c17c627923c6612f48268673)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 192 -l 4 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 9.20
+	System time (seconds): 0.24
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 388020
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 88227
+	Voluntary context switches: 151
+	Involuntary context switches: 147
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

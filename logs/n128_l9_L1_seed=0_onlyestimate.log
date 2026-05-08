@@ -1,0 +1,60 @@
+[i] Seed: 0
+[i] Secret key: GF128Element(f7c1bd874da5e709d4713d60c8a70639)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 9 branches
+- L = 1 IVs
+- M = 115 squarings (1 ... 2^(M-1) 2^M)
+- W = 1153 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^143.91 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 10
+[i] Squared equations: 1160
+[i] W = t-monomials in equations: 1153
+
+Arranging equations...
+
+[i] Full equation matrix F: H=1160 x W=1153
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 1153/1153   fingerprint 6aad89d5a4eb11cf
+[I] Row-degree sum ξ: experimental = 2^118.70, estimated = 2^119.31
+[I] Total nonzero coefficients 268304 <= 2W^2 = 2658818 ? True
+[I] Time complexity 2^144.03 field ops = 2^137.03 encs  (1/n convention)
+[I] Memory complexity : 2^129.87 field elems = 2^133.87 bytes = 18555483248848564940462972993536.00 GB
+[R1] n=128  ell= 9  L=  1  M=115  W=1153  ξ=2^118.70  Time=2^144.03 field ops  Mem=2^129.87 field elems
+[R2] n=128  ell= 9  L=  1  M=115  W=1153  ξ=2^118.70  Time=2^137.03 enc  Mem=2^133.87 bytes
+
+[W] not running full attack 18555483248848564940462972993536.0 GB needed, 27.0 GB available
+[i] Real secret key for comparison: GF128Element(f7c1bd874da5e709d4713d60c8a70639)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 9 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 20.24
+	System time (seconds): 0.23
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 442968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 105291
+	Voluntary context switches: 147
+	Involuntary context switches: 500
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

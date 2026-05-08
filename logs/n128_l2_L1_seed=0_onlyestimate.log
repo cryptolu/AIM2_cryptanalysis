@@ -1,0 +1,60 @@
+[i] Seed: 0
+[i] Secret key: GF128Element(8133287637ebdcd9e87a1613e443df78)
+
+Generating (iv, ct) pairs...
+
+
+[i] AIM/attack parameters:
+- n = 128 bits
+- ell = 2 branches
+- L = 1 IVs
+- M = 85 squarings (1 ... 2^(M-1) 2^M)
+- W = 257 t-monomials
+- Only estimate ? True
+
+[I] Time complexity rough estimate = 2^112.31 field ops
+
+Generating base equations... (using linearized polynomials)
+
+[i] Initial equations: 3
+[i] Squared equations: 258
+[i] W = t-monomials in equations: 257
+
+Arranging equations...
+
+[i] Full equation matrix F: H=258 x W=257
+
+Computing pivots (p=0)
+[i] Rank = #pivots = 257/257   fingerprint 27542d144ad92c56
+[I] Row-degree sum ξ: experimental = 2^87.32, estimated = 2^87.58
+[I] Total nonzero coefficients 44206 <= 2W^2 = 132098 ? True
+[I] Time complexity 2^110.66 field ops = 2^103.66 encs  (1/n convention)
+[I] Memory complexity : 2^96.33 field elems = 2^100.33 bytes = 1481504133419798364160.00 GB
+[R1] n=128  ell= 2  L=  1  M= 85  W= 257  ξ=2^ 87.32  Time=2^110.66 field ops  Mem=2^ 96.33 field elems
+[R2] n=128  ell= 2  L=  1  M= 85  W= 257  ξ=2^ 87.32  Time=2^103.66 enc  Mem=2^100.33 bytes
+
+[W] not running full attack 1481504133419798364160.0 GB needed, 27.2 GB available
+[i] Real secret key for comparison: GF128Element(8133287637ebdcd9e87a1613e443df78)
+	Command being timed: "sage attack-aim2.py --no-progress-bars -n 128 -l 2 -L 1 --seed=0 --only-estimate"
+	User time (seconds): 1.95
+	System time (seconds): 0.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 248272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52489
+	Voluntary context switches: 149
+	Involuntary context switches: 71
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
