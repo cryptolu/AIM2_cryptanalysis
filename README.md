@@ -8,7 +8,7 @@ by Alex Biryukov, Pablo García Fernández & Aleksei Udovenko.
 
 The work was funded by Luxembourg's FNR projects CryptoFin (C22/IS/17415825), PQseal (C24/IS/18978392), NCER22/IS/16570468/NCER-FT, and FinnovationHub funded by the Ministry of Finance, Government of Luxembourg.
 
-```
+```bib
 @InProceedings{10.1007/978-3-032-25333-0_3,
     author="Biryukov, Alex and Garc{\'i}a Fern{\'a}ndez, Pablo and Udovenko, Aleksei",
     editor="Daemen, Joan and Thom{\'e}, Emmanuel",

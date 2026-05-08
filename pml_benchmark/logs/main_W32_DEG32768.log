@@ -1,0 +1,27 @@
+N 32 DEG 32768 TERMS 1
+Using prime 28407454060060787
+o: 2162690
+non pivot 32
+[T] SingleApproximant main loop: 37730 ms
+[T] SingleApproximant full: 39252 ms
+[T] Padé approximation: 30858 ms
+[i] Numerator/denominator degrees 1048576 / 1048576
+[i] Result: degree 1081344 coeffs 1 0 0 0 ... 24440632375248051
+[T] Our total time: 103160 ms
+
+[T] debug: linsolve solve_series: 174583 ms
+[T] debug: HalfGCD + monics: 28140 ms
+[i] debug: degree: den 1081345 order 2162688
+[T] determinant_via_linsolve: 231628 ms
+[i] Result: degree 1081344: 1 0 0 0 ... 24440632375248051
+
+[T] sparse_eval precompute: 98 ms
+[T] determinant_via_evaluation_geometric_sparse: 63565 ms
+[i] Result: degree 1081344: 1 0 0 0 ... 24440632375248051
+
+[T] determinant_via_evaluation_geometric: 381268 ms
+[i] Result: degree 1081344: 1 0 0 0 ... 24440632375248051
+
+[T] determinant_generic_knowing_degree: 443379 ms
+[i] Result: degree 1081344: 1 0 0 0 ... 24440632375248051
+
