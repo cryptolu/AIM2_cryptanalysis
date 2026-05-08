@@ -1,6 +1,6 @@
 # Magic Pot: Cryptanalysis of Full AIM2 in the Standard and Related-/reused-Key Settings Using New Elimination Framework
 
-This repository contains supporting code for the [EUROCRYPT 2026](https://eurocrypt.iacr.org/2026/) paper ([doi](10.1007/978-3-032-25333-0_3)], ([eprint full version](https://eprint.iacr.org/2026/xx)):
+This repository contains supporting code for the [EUROCRYPT 2026](https://eurocrypt.iacr.org/2026/) paper ([doi](10.1007/978-3-032-25333-0_3)), ([eprint full version](https://eprint.iacr.org/2026/xx)):
 
 > **Magic Pot: Cryptanalysis of Full AIM2 in the Standard and Related-/reused-Key Settings Using New Elimination Framework**
 
@@ -26,6 +26,9 @@ The work was funded by Luxembourg's FNR projects CryptoFin (C22/IS/17415825), PQ
 A copy of this repository is available at [zenodo.org](https://doi.org/10.5281/zenodo.18727305).
 
 
+**Note:** The `ff_rust` finite field library will be uploaded soon after final cleaning. [attack-aim2-sage.py](./attack-aim2-sage.py) is implemented in pure SageMath and can be ran without it.
+
+``
 
 ## Setup
 Requirements: Rust setup, maturin, SageMath.
@@ -42,13 +45,18 @@ Or in a notebook:
 %pip install ./ff_rust
 ```
 
+
 ## Files
 
 - [aim2.py](./aim2.py) contains SageMath implementation of AIM2, compatible with the reference implementations.
-- [attack-aim2.py](./attack-aim2.py) contains SageMath implementation of the estimation and key recovery attack.
+- [attack-aim2.py](./attack-aim2.py) contains SageMath implementation of the estimation and key recovery attack against AIM2, using `ff_rust` arithmetics.
+- [attack-rain.py](./attack-rain.py) contains SageMath implementation of the estimation and key recovery attack against RAIN, using `ff_rust` arithmetics.
+- [attack-aim2-sage.py](./attack-aim2-sage.py) contains pure SageMath implementation of the estimation and key recovery attack (no `ff_rust` required).
 - [polynomial.py](./polynomial.py) contains generic (unoptimized) multivariate polynomial ring implementation, to track the equations.
 - [halfgcd.py](./halfgcd.py) contains univariate polynomial arithmetic wrappers (gcd, halfgcd, division/remainder) to use FAFFT for fast operations.
 - [keypairs_from_reference_implementation](./keypairs_from_reference_implementation) folder contains C program to generate (iv,ct) pairs from a reference C implementation, as well as pre-generated sample files. These files contain the secret key for verification purposes, but the key can be erased to make sure the key recovery is not cheating.
+- [pml_benchmark](./pml_benchmark) folder contains C++ benchmark of PML determinant algorithm versus ours, on a prime field.
+
 
 ## Attack
 
@@ -171,6 +179,7 @@ found roots:
 [T] TIME full attack (main part only): 41.01423716545105  | memory usage: 0.27 GB
 [i] Real secret key for comparison: GF128Element(27d6539e87ba3458344d07ad8988b912)
 ```
+
 
 ## Reproducing Table 4
 
